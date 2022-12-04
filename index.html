@@ -5,33 +5,36 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+      <header>
+        <nav>
+          <marquee>
         <h1 class="header">SERVICE PROVIDER DETECTOR!</h1>
-        
-        
-        <div class="formmain">
-          <form id="form">
-            <div>
-              <label for="number"><h1 id="phone">Phone Number</h1></label>
-              <input type="tel" name="number" id="phonenumber" placeholder="Enter your number e.g. 654490031" maxlength="9" minlength="9" required>
-              <br>
-              <button id="btn" type="submit">submit</button>
-              <button type="reset" id="btn2">Reset</button>
-              <br>
-              
-            </div>
-            <div>
-                <label for="text"><h2 id="carrier">Carrier</h2></label>
-                <input type="text" name="text" id="carriertype" readonly placeholder="Your Service Provider is...">
-                <p id="error" readonly>food</p>
+          </marquee>
+        </nav>
+      </header>
+      <main>
+        <form>
+          <div>
+            <label for="number"><h2 id="phone">Phone Number</h2></label>
+            <input type="tel" class="input" name="number" id="phonenumber" placeholder="e.g. 654490031" maxlength="9" minlength="9" required>
+          </div>
+          <div class="button">
+            <button id="btn" type="submit" class="but">submit</button>
+            <button type="reset" id="btn2" class="but">Reset</button>
+          </div>
+          <div>
+            <label for="text"><h2 id="carrier">Carrier</h2></label>
+              <input type="text" name="text" class="input" id="carriertype" readonly placeholder="Your Service Provider is...">
             </div>
           </form>
+          <section>
             <div>
-                <img src="logo4.jpg" id="pic">
+              <img src="logo4.jpg" id="pic">
             </div>
-       
-        </div>
-        
-        <script src="javascript.js"></script>
+          </section>
+      </main>
+      <footer></footer>
+      <script src="javascript.js"></script>
     </body>
 </html>
 <!--rgb(10, 5, 51);   rgb(240, 240, 77);-->
