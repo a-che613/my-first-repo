@@ -1,43 +1,4 @@
 
-
-// let phones = document.querySelector('#phone');
-// phones.textContent += '(el)';
-// console.log(phones.nodeName);
-// console.log(phones.nodeType);
-
-// const addForm = document.forms['form'];
-
-
-// addForm.addEventListener('submit', function(e){
-//     e.preventDefault();
-//     const values = addForm.querySelector
-//     ('input[type="tel"]').value;
-    
-//     console.log(values);
-   
-// });
-
-
-
-
-
-
-
-
-// function carrier(){
-//     const disp = document.getElementById('display');
-//     const input = document.getElementById('phonenumber'); 
-//     disp.innerText = input.value;
-// }
-
-// btn1.addEventListener('click', carrier, function(e){
-//     e.preventDefault()
-// })
-
-
-
-// input=parseInt(myform.fst.value);
-
 const btn1 = document.getElementById('btn');
 
 btn1.addEventListener('click', function(e){
