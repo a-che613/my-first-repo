@@ -1,40 +1,56 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>FredDys!!!</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-      <header>
-        <nav>
-          <marquee>
-        <h1 class="header">SERVICE PROVIDER DETECTOR!</h1>
-          </marquee>
-        </nav>
-      </header>
-      <main>
-        <form>
-          <div>
-            <label for="number"><h2 id="phone">Phone Number</h2></label>
-            <input type="tel" class="input" name="number" id="phonenumber" placeholder="e.g. 654490031" maxlength="9" minlength="9" required>
-          </div>
-          <div class="button">
-            <button id="btn" type="submit" class="but">submit</button>
-            <button type="reset" id="btn2" class="but">Reset</button>
-          </div>
-          <div>
-            <label for="text"><h2 id="carrier">Carrier</h2></label>
-              <input type="text" name="text" class="input" id="carriertype" readonly placeholder="Your Service Provider is...">
-            </div>
-          </form>
-          <section>
-            <div>
-              <img src="logo4.jpg" id="pic">
-            </div>
-          </section>
-      </main>
-      <footer></footer>
-      <script src="javascript.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C-D</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <nav>
+      <marquee>
+        <h2>SERVICE PROVIDER DETECTOR</h2>
+      </marquee>
+    </nav>
+  </header>
+  <main>
+    <p>Enter your phone number and know the service provider 
+      you use!!!!
+    </p>
+    <section class="form">
+    <form>
+      <div>
+        <label class="l1" for="number">Phone Number</label>
+        <input type="text" maxlength="9" placeholder="e.g 654490031" id="phonenumber">
+      </div>
+      <div>
+        <button id="btn">submit</button>
+      </div>
+      <div>
+        <label for="text" class="l2">Carrier</label>
+        <input type="text" class="inp2" id="inp2" readonly>
+      </div>
+    </form>
+  </section>
+    <section class="logo">
+      <img src="logo4.jpg" width="100%">
+    </section>
+  </main>
+  <footer>
+    <div>
+      <a class="github-button" href="https://github.com/a-che613" data-color-scheme="no-preference: light; light: light; dark: dark;" aria-label="Follow @a-che613 on GitHub" target="_blank">
+      <i class='bx bxl-github'></i></a>
+      <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/alex_che61?ref_src=twsrc%5Etfw" target="_blank"> 
+      <i class='bx bxl-twitter'></i></a>
+      <a href="https://www.linkedin.com/in/azienwi-che-686316236" target="_blank">
+      <i class='bx bxl-linkedin'></i></a>
+      <a href="https://wa.me/654490031" target="_blank">
+      <i class='bx bxl-whatsapp'></i></a>
+    </div>
+    <p>Made with love A.Che</p>
+  </footer>
+  <script src="javascript.js"></script>  
+</body>
 </html>
-<!--rgb(10, 5, 51);   rgb(240, 240, 77);-->

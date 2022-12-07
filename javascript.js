@@ -4,31 +4,30 @@ const btn1 = document.getElementById('btn');
 btn1.addEventListener('click', function(e){
     e.preventDefault()
 
-    const output = document.getElementById('carriertype');
+    const output = document.getElementById('inp2');
     // const disp = document.getElementById('display');
     const input = document.getElementById('phonenumber');
-    let error = document.getElementById('error');
 
    if (input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '4' ){
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '1') {
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '2') {
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '0') {
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '3'){
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '7'){
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
   else if(input.value[0] === '6' && input.value[1] === '8'){
-    form.carriertype.value = 'MTN';
+    inp2.value = 'MTN';
   }
 
 
@@ -37,38 +36,62 @@ btn1.addEventListener('click', function(e){
 
 
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '5'){
-    form.carriertype.value = 'ORANGE';
+    inp2.value = 'ORANGE';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '6'){
-    form.carriertype.value ='ORANGE';
+    inp2.value ='ORANGE';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '7'){
-    form.carriertype.value = 'ORANGE';
+    inp2.value = 'ORANGE';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '8'){
-    form.carriertype.value = 'ORANGE';
+    inp2.value = 'ORANGE';
   }
   else if(input.value[0] === '6' && input.value[1] === '5' && input.value[2] === '9'){
-    form.carriertype.value = 'ORANGE';
+    inp2.value = 'ORANGE';
   }
   else if(input.value[0] === '6' && input.value[1] === '9'){
-    form.carriertype.value = 'ORANGE';
+    inp2.value = 'ORANGE';
   }
 
   //camtel
 
   else if(input.value[0] === '6' && input.value[1] === '2'){
-    form.carriertype.value = 'CAMTEL';
+    inp2.value = 'CAMTEL';
   }
 
   //nexttel
   else if(input.value[0] === '6' && input.value[1] === '6'){
-    form.carriertype.value = 'NEXTTEL';
+    inp2.value = 'NEXTTEL';
   }
   else if(input.length < 9){
-    form.carriertype.value = 'Please Enter a valid number';
+    inp2.value = 'Please Enter a valid number';
   }
   else {
-    error.innerHTML = 'Please Enter a valid number';
+    inp2.value = 'please enter a valid number';
   }
 })
+
+
+// const btn1 = document.getElementById('btn');
+// const carrierType = {
+//   mtn: 'MTN',
+//   mtnS: [67, 68, 650, 651, 652, 653, 654],
+//   orange: 'ORANGE',
+//   orangeS: [69, 655, 656, 657, 658, 659],
+//   camtel: 'CAMTEL',
+//   camtelS: [62],
+//   nexttel: 'NEXTTEL',
+//   nexttelS: [66],
+// }
+// console.log(carrierType.mtn);
+
+
+// btn1.addEventListener('click', function(e){
+//     e.preventDefault()
+
+//     const output = document.getElementById('carriertype');
+//     // const disp = document.getElementById('display');
+//     const input = document.getElementById('phonenumber');
+//     let error = document.getElementById('error');
+//   })
